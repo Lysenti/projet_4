@@ -3,9 +3,19 @@ body {
 	margin: auto;
 }
 * {
-	font-family: 'Inter';
+	font-family: 'Inter', sans-serif;
 	font-style: normal;
 }
+
+/* Ajouter @font-face avec font-display: swap */
+@font-face {
+	font-family: 'Inter';
+	src: url('https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK....woff2') format('woff2');
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+  }
+
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -44,6 +54,8 @@ body {
 
 #about {
 	display: flex;
+	min-height: 500px; 
+	/*min-width: 100%;*/
 	background-color: #F6D2B8;
 	padding-inline: 100px;
 	padding-block: 100px;
@@ -69,6 +81,7 @@ body {
 
 .picture img {
 	width: 100%;
+	height: auto;
 
 }
 #about-me {
@@ -80,7 +93,7 @@ body {
 	font-size: 30px;
 }
 .about-me__introduction {
-	font-family: 'Spectral';
+	font-family: 'Spectral' serif;
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
@@ -129,7 +142,7 @@ body {
 .mg-prev, .mg-next {
 	width: 30px;
 	height: 30px;
-	border-radius: 00%;
+	border-radius: 0;
 	justify-content: center;
 	align-items: center;
 	display: flex;
@@ -137,20 +150,20 @@ body {
 }
 
 .quote {
-	font-family: 'Spectral';
+	font-family: 'Spectral', serif;
 	font-style: italic;
 	width: 70%;
 	margin: auto;
 	padding-block: 3em;
 }
 .quote__text {
-	font-family: Spectral;
+	font-family: 'Spectral', serif;
 	font-style: italic;
 	font-weight: 300;
 
 }
 .quote__author {
-	font-family: Spectral;
+	font-family: 'Spectral', serif;
 	font-weight: 800;
 	font-size: 22px;
 }
