@@ -10,7 +10,7 @@ body {
 /* Ajouter @font-face avec font-display: swap */
 @font-face {
 	font-family: 'Inter';
-	src: url('https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK....woff2') format('woff2');
+	src: url('https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK.woff2') format('woff2');
 	font-style: normal;
 	font-weight: 400;
 	font-display: swap;
@@ -55,7 +55,6 @@ body {
 #about {
 	display: flex;
 	min-height: 500px; 
-	/*min-width: 100%;*/
 	background-color: #F6D2B8;
 	padding-inline: 100px;
 	padding-block: 100px;
@@ -93,7 +92,7 @@ body {
 	font-size: 30px;
 }
 .about-me__introduction {
-	font-family: 'Spectral' serif;
+	font-family: 'Spectral', serif;
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
