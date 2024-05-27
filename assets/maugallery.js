@@ -170,8 +170,8 @@
       let tagItems =
         '<li class="nav-item"><span class="nav-link active active-tag"  data-images-toggle="all">Tous</span></li>';
         tags.forEach(value => {
-        tagItems += `<li class="nav-item<<<<<<<<<<<<<<<<<<<<<<">
-                <span class="nav-link"  data-images-toggle="${value}">${value}</span></li>`;
+        tagItems += `<li class="nav-item">
+                <span class="nav-link" style="cursor:pointer;" data-images-toggle="${value}">${value}</span></li>`;
       });
       const tagsRow = `<ul class="my-4 tags-bar nav nav-pills">${tagItems}</ul>`;
 
