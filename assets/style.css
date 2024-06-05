@@ -40,13 +40,20 @@ body {
 	color: #000
 }
 
+#carouselExampleIndicators {
+    height: 888px; /* Ajustez cette valeur en fonction de vos besoins */
+}
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
 .social-link img {
 	width: 20px;
 }
 
 #about {
 	display: flex;
-	min-height: 500px; 
 	background-color: #F6D2B8;
 	padding-inline: 100px;
 	padding-block: 100px;
