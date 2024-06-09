@@ -91,26 +91,34 @@ body {
 	font-size: 30px;
 }
 .about-me__introduction {
+	font-size: 1rem;
 	font-family: 'Spectral', serif;
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	margin: 0.67em 0;
+	line-height: 1.2;
+	color: inherit;
+	text-align: justify;
 }
 #about-me p {
 	width: 80%;
 	font-size: 14px;
+	text-align: justify;
 }
 
 .title{
 	text-align: center;
 	padding-block: 2em;
+	
 }
+
 .gallery .nav {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #1C6474;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -211,7 +219,7 @@ body {
 }
 .picture.right::before {
 	content: ' ';
-	background-color: #BEB45A;
+	background-color: #1C6474;
 	width: 374px;
 	height: 329px;
 	position: absolute;
@@ -248,7 +256,8 @@ form textarea {
 	margin-bottom: 20px;
 }
 input[type="submit"] {
-	background-color: #BEB45A;
+	background-color: #1C6474;
+	color: #fff;
 	padding: .5em 1em
 }
 
@@ -263,7 +272,7 @@ input[type="submit"] {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	#about-me h6, #about-me p {
+	#about-me p, #about-me p {
 		width: 100%;
 	}
 }
